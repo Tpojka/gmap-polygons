@@ -1,0 +1,53 @@
+var myCoordinates = [
+new google.maps.LatLng(43.991580,12.514114),
+new google.maps.LatLng(43.985157,12.516174),
+new google.maps.LatLng(43.981452,12.510338),
+new google.maps.LatLng(43.973546,12.512398),
+new google.maps.LatLng(43.970828,12.506905),
+new google.maps.LatLng(43.962673,12.509308),
+new google.maps.LatLng(43.957978,12.506218),
+new google.maps.LatLng(43.941664,12.517204),
+new google.maps.LatLng(43.923863,12.502785),
+new google.maps.LatLng(43.921884,12.495575),
+new google.maps.LatLng(43.917433,12.492485),
+new google.maps.LatLng(43.909024,12.494545),
+new google.maps.LatLng(43.896655,12.486992),
+new google.maps.LatLng(43.896903,12.474632),
+new google.maps.LatLng(43.893687,12.458839),
+new google.maps.LatLng(43.894924,12.450943),
+new google.maps.LatLng(43.901851,12.448540),
+new google.maps.LatLng(43.906056,12.440987),
+new google.maps.LatLng(43.901603,12.432404),
+new google.maps.LatLng(43.904077,12.428627),
+new google.maps.LatLng(43.900119,12.418671),
+new google.maps.LatLng(43.902593,12.407684),
+new google.maps.LatLng(43.908777,12.412491),
+new google.maps.LatLng(43.920648,12.408028),
+new google.maps.LatLng(43.924357,12.409401),
+new google.maps.LatLng(43.929797,12.415581),
+new google.maps.LatLng(43.938203,12.412148),
+new google.maps.LatLng(43.941912,12.405281),
+new google.maps.LatLng(43.955259,12.404251),
+new google.maps.LatLng(43.952046,12.415581),
+new google.maps.LatLng(43.957731,12.420387),
+new google.maps.LatLng(43.956742,12.437553),
+new google.maps.LatLng(43.965639,12.446480),
+new google.maps.LatLng(43.965886,12.448196),
+new google.maps.LatLng(43.978240,12.470169),
+new google.maps.LatLng(43.981452,12.484245),
+new google.maps.LatLng(43.984416,12.490082),
+new google.maps.LatLng(43.982934,12.493858),
+new google.maps.LatLng(43.986145,12.496605),
+new google.maps.LatLng(43.985898,12.501068),
+new google.maps.LatLng(43.991580,12.505188),
+new google.maps.LatLng(43.991147,12.513771)
+];
+var polyOptions = {
+path: myCoordinates,
+strokeColor: "#FF0000",
+strokeOpacity: 1,
+strokeWeight: 3
+}
+var it = new google.maps.Polyline(polyOptions);
+it.setMap(map);
+
