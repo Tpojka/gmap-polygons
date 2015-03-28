@@ -1,4 +1,4 @@
-var liechtenstein = [
+var liechtensteinCoords = [
 new google.maps.LatLng(47.059364,9.606857),
 new google.maps.LatLng(47.064977,9.613037),
 new google.maps.LatLng(47.079475,9.610977),

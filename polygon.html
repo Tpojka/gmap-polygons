@@ -12,6 +12,7 @@
       }
     </style>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+    <script src="js-objects/liechtenstein.js" type="text/javascript"></script>
     <script>
 
 var map;
@@ -25,71 +26,6 @@ function initialize() {
 
   map = new google.maps.Map(document.getElementById('map-canvas'),
       mapOptions);
-
-var liechtensteinCoords = [
-new google.maps.LatLng(47.059364,9.606857),
-new google.maps.LatLng(47.064977,9.613037),
-new google.maps.LatLng(47.079475,9.610977),
-new google.maps.LatLng(47.078072,9.619217),
-new google.maps.LatLng(47.082748,9.624023),
-new google.maps.LatLng(47.084150,9.634323),
-new google.maps.LatLng(47.100512,9.635010),
-new google.maps.LatLng(47.110327,9.619904),
-new google.maps.LatLng(47.113598,9.624710),
-new google.maps.LatLng(47.120140,9.625397),
-new google.maps.LatLng(47.127148,9.634323),
-new google.maps.LatLng(47.131819,9.626083),
-new google.maps.LatLng(47.141161,9.622650),
-new google.maps.LatLng(47.145365,9.626083),
-new google.maps.LatLng(47.150968,9.621277),
-new google.maps.LatLng(47.146766,9.613037),
-new google.maps.LatLng(47.162641,9.597931),
-new google.maps.LatLng(47.170577,9.579391),
-new google.maps.LatLng(47.169644,9.565659),
-new google.maps.LatLng(47.178046,9.574585),
-new google.maps.LatLng(47.190646,9.573212),
-new google.maps.LatLng(47.196245,9.580078),
-new google.maps.LatLng(47.205575,9.584885),
-new google.maps.LatLng(47.208841,9.579391),
-new google.maps.LatLng(47.219102,9.569092),
-new google.maps.LatLng(47.223765,9.559479),
-new google.maps.LatLng(47.223299,9.551926),
-new google.maps.LatLng(47.241016,9.568405),
-new google.maps.LatLng(47.251271,9.558105),
-new google.maps.LatLng(47.260126,9.539566),
-new google.maps.LatLng(47.265718,9.540939),
-new google.maps.LatLng(47.270377,9.531326),
-new google.maps.LatLng(47.261058,9.528580),
-new google.maps.LatLng(47.242881,9.520340),
-new google.maps.LatLng(47.222366,9.501801),
-new google.maps.LatLng(47.209774,9.499741),
-new google.maps.LatLng(47.197645,9.490128),
-new google.maps.LatLng(47.180846,9.486008),
-new google.maps.LatLng(47.163108,9.491501),
-new google.maps.LatLng(47.141395,9.507637),
-new google.maps.LatLng(47.102382,9.518280),
-new google.maps.LatLng(47.085553,9.514160),
-new google.maps.LatLng(47.072928,9.491501),
-new google.maps.LatLng(47.065445,9.472275),
-new google.maps.LatLng(47.052347,9.475708),
-new google.maps.LatLng(47.056557,9.482574),
-new google.maps.LatLng(47.049072,9.484634),
-new google.maps.LatLng(47.056557,9.492874),
-new google.maps.LatLng(47.053751,9.499741),
-new google.maps.LatLng(47.057025,9.501114),
-new google.maps.LatLng(47.057025,9.514160),
-new google.maps.LatLng(47.061235,9.518280),
-new google.maps.LatLng(47.064509,9.540939),
-new google.maps.LatLng(47.056557,9.555359),
-new google.maps.LatLng(47.050476,9.553986),
-new google.maps.LatLng(47.048137,9.558449),
-new google.maps.LatLng(47.053751,9.575958),
-new google.maps.LatLng(47.051879,9.582481),
-new google.maps.LatLng(47.058663,9.600334),
-new google.maps.LatLng(47.061937,9.603081),
-new google.maps.LatLng(47.059832,9.605827),
-new google.maps.LatLng(47.059306,9.606900)
-];
 
   liechtenstein = new google.maps.Polygon({
     paths: liechtensteinCoords,
